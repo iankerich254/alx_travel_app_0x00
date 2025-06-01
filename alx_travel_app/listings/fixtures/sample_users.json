@@ -1,0 +1,33 @@
+[
+  {
+    "model": "listings.user",
+    "pk": "1b1b5e0e-b5cc-4d1f-a7c6-83ea923304f1",
+    "fields": {
+      "username": "host_user",
+      "email": "host@example.com",
+      "password": "pbkdf2_sha256$260000$demo$demo",
+      "first_name": "Host",
+      "last_name": "User",
+      "phone_number": "1234567890",
+      "role": "host",
+      "is_staff": true,
+      "is_superuser": false
+    }
+  },
+  {
+    "model": "listings.user",
+    "pk": "9fa8d9cf-3ebc-41ea-8f0f-276a6c9c52fa",
+    "fields": {
+      "username": "guest_user",
+      "email": "guest@example.com",
+      "password": "pbkdf2_sha256$260000$demo$demo",
+      "first_name": "Guest",
+      "last_name": "User",
+      "phone_number": "0987654321",
+      "role": "guest",
+      "is_staff": false,
+      "is_superuser": false
+    }
+  }
+]
+
